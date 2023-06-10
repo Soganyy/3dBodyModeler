@@ -1,0 +1,74 @@
+.createDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.formDiv {
+    width: 30%;
+    height: 33vw;
+    background-color: var(--clr-accent-1);
+    margin-top: 10vw;
+}
+
+.createForm {
+    margin-left: 10%;
+    width: 90%;
+    height: 33vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.labelCreateForm {
+    color: var(--text-primary);
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.createFormInput {
+    background-color: var(--bg-primary);
+    font-size: 1.3rem;
+    width: 78%;
+    height: 9%;
+    margin-bottom: 7%;
+    padding-top: 1%;
+    padding-left: 3%;
+    border: none;
+    color: var(--text-primary);
+}
+
+.createFormInput:focus {
+    outline: none;
+    border: none;
+}
+
+.createFormInput:hover {
+    border: none;
+}
+
+.submitButtonCreateForm {
+    font-size: 1.2rem;
+    background-color: var(--bg-primary);
+    width: 30%;
+    height: 2.5vw;
+    margin-top: 1rem;
+    border: none;
+}
+
+.modelDiv {
+    background-color: var(--clr-accent-2);
+    margin-top: 7vw;
+    margin-left: 7vw;
+    width: 60%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

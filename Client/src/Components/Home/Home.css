@@ -1,0 +1,32 @@
+.homeFirstDiv {
+  margin-left: 2vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.homeFirstDivText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+}
+
+.homeFirstDivText h1 {
+  font-size: 7vw;
+  font-weight: 700;
+  margin: 0;
+}
+
+.homeFirstDivText h2 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.homeFirstDivImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  margin-left: 5vw;
+}

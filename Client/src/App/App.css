@@ -1,0 +1,47 @@
+:root {
+  --clr-accent-1: #E8AA42;
+  --clr-accent-2: #E57C23;
+
+  --bg-primary: #025464;
+  --text-primary: #F8F1F1;
+
+  --transition: 500ms ease-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: monospace;
+  font-size: 2vw;
+}
+
+.main {
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+.navbarDiv {
+  position: fixed;
+  width: 14%;
+  margin: 0;
+  height: 100vh;
+  background-color: var(--clr-accent-1);
+}
+
+.home {
+  width: 86vw;
+  margin-left: 10vw;
+  padding-left: 13vw;
+}
